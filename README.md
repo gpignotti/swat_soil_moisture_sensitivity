@@ -28,4 +28,4 @@ The theory and application of this code is documented in the manuscript, [TBD](l
 - The upper soil moisture layer is the 2nd actual soil layer as SWAT adds a 10 mm layer by default
 
 ## Other changes
-The code has also been modified to print out total soil water content, rather than available soil water content, in the output.swr file. Available soil water content is soil water content less the wilting point soil water content. 
+The code has also been modified to print out total soil water content, rather than available soil water content, in the output.swr file. Available soil water content is soil water content less the wilting point soil water content. The model will also print out a new file, output.dg, which provides the depths of all soil layers. This can be used along with output.swr to get a fractional soil water content (i.e. output.swr value / output.dg value).
