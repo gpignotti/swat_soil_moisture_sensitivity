@@ -12,7 +12,7 @@ The theory and application of this code is documented in the manuscript, [TBD](l
 - Edited modparm.f, readbsn.f, and percmain.f
   - Created new variable: sa_val
   - modparm.f: add new variale into SWAT global variables (real :: sa_val)
-  - readbsn.f: added sa_val to be read at the bottom of the file
+  - readbsn.f: added sa_val to be read at the bottom of the basins.bsn file
   - percmain.f: multiply whole soil moisture layer by sa_val each day before any of the other processes, including percolation and lateral flow, since want to know its effect upon them in the model
 
 ## Input file changes needed to run code
