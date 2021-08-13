@@ -6,7 +6,7 @@
 3. compiled modified code Windows executable (/windows_executable/)
 
 ## Background
-The theory and application of this code is documented in the manuscript, [TBD](link)
+The theory and application of this code is documented in the manuscript, [Pignotti et al. (2021)](https://www.sciencedirect.com/science/article/abs/pii/S136481522100205X)
 
 ## Code changes
 - Edited modparm.f, readbsn.f, and percmain.f
